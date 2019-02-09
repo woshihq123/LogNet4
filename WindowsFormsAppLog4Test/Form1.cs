@@ -29,7 +29,7 @@ namespace WindowsFormsAppLog4Test
 
         private void btnRedisTest_Click(object sender, EventArgs e)
         {
-
+            ; ; ;
             Console.WriteLine("Redis写入缓存：zhong");
 
             RedisCacheHelper.Add("zhong", "zhongzhongzhong", DateTime.Now.AddDays(1));
